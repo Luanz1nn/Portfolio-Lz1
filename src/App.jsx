@@ -16,15 +16,15 @@ function App() {
       </div>
         
       <main>
-        <Hero />
-        <About />
-        <TechStack />
-        <Projects />
-        <Experience />
-        <Contact />
+        <section id="hero"><Hero /></section>
+        <section id="about"><About /></section>
+        <section id="tech-stack"><TechStack /></section>
+        <section id="projects"><Projects /></section>
+        <section id="experience"><Experience /></section>
+        <section id="contact"><Contact /></section>
       </main>
     </div>
-  )
+  );
 }
 
 export default App;

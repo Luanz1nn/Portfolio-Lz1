@@ -28,19 +28,23 @@ function Navbar() {
 
         {/* Links */}
         <div className="flex gap-8 text-sm">
-          <a href="#sobre" className="hover:text-purple-400 transition">
+          <a href="#hero" className="hover:text-purple-400 transition">
+            Início
+          </a>
+
+          <a href="#about" className="hover:text-purple-400 transition">
             Sobre
           </a>
 
-          <a href="#tecnologias" className="hover:text-purple-400 transition">
+          <a href="#tech-stack" className="hover:text-purple-400 transition">
             Tecnologias
           </a>
 
-          <a href="#projetos" className="hover:text-purple-400 transition">
+          <a href="#projects" className="hover:text-purple-400 transition">
             Projetos
           </a>
 
-          <a href="#contato" className="hover:text-purple-400 transition">
+          <a href="#contact" className="hover:text-purple-400 transition">
             Contato
           </a>
         </div>
